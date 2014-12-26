@@ -5,7 +5,7 @@ Title:          main.css
 Browser(s):     All  
   
 Author:         Jay Vyas 
-Created:        12.26.2014 
+Created:        12.24.2014 
 
 */
 /************************** GLOBAL ******************************/
@@ -93,44 +93,49 @@ h3 {
 
 /************************** INTRO. PARAGRAPH ******************************/
 h4 {
-	font-size: 2em;
+	font-size: 1.5em;
 }
 
 #header_intro {
 	background-color: #262424;
 	color: #FFFFFF;
-	width: 100%;
-	padding: 70px 0;
-	font-size: 14px;
-	line-height: 170%;
+	height: 350px;
 }
 
 #self_pic {
-    display: inline-block;
-    width: 35%;
+	position: relative;
+	top: 62.5px;
+	padding-left: 12%;
 }
 
 #intro {
-    width: 60%;
-    display: inline-block;
+	width: 50%;
+	position: relative;
+	top: -150px;
+	left: 15%;
+	font-size: 14px;
 }
 
-#setup{
-	max-width: 1200px;
+/************************** CONTACT ME ******************************/
+#footer a{
+	display: inline;
+/*	padding-right: 25px;
+	padding-left: 25px; */
+	margin: 25px;
+}
+
+#footer {
+	text-align: center;
+	padding-bottom: 15px;
 }
 
 /************************** MAIN CONTENT ******************************/
-#mbody1{
-	background-color: #FFFFFF;
-	height: 100%;
-	padding-top: 50px;
-}
-
 #main_content{
-	height: 25%;
+	padding-top: 50px;
+	height: 375px;
 	line-height: 160%;
+	padding-left: 10px;
 	font-size: 14px;
-	width: 30%;
 }
 
 ul ul, ol ul { 
@@ -148,27 +153,17 @@ h5{
 	text-align: center;
 }
 
-.info{
-	width: 100%;
+#skills, #experience, #projects {
+	margin: 0 1.5% 24px 1.5%;
+	float: left;
+	width: 30%;
 }
 
-#experience, #projects{
-	padding-top: 70px;
+#projects{
+	padding-left: 10px;
 }
 
 .learning{
 	text-align: center;
-	padding-bottom: 100px;
-	padding-top: 50px;
-}
-
-/************************** CONTACT ME ******************************/
-#footer a{
-	display: inline;
-	margin: 25px;
-}
-
-#footer {
-	text-align: center;
-	padding-bottom: 15px;
+	padding-bottom: 75px;
 }
