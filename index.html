@@ -1,141 +1,432 @@
-<!-- Jay Vyas
-     December 26st, 2014 -->
 <!DOCTYPE html>
-<HTML>
-    <!--START OF HEAD-->
-    <HEAD>
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-        <meta http-equiv="Content-Language" content="en" /> 
-        <meta name="keywords" content="Jay Vyas Computer Engineer Coop Student University of Waterloo Maple Leaf Foods AppZero IBM">
-        <meta name="description" content="Jay Vyas Personal Website">
-        <meta name="author" content="Jay Vyas">
-        <link href="JayIcon.png" rel="shortcut icon" type="image/png"/>
-        
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href='http://fonts.googleapis.com/css?family=Bitter:400,700' rel='stylesheet' type='text/css'>
+<html lang="en">
 
-        <!--CSS -->
-        <link href="main.css" rel="stylesheet" type="text/css" /> 
-        <!--PAGE TITLE -->
-        <title>Jay Vyas</title>
-    </HEAD>
+<head>
 
-    <!--START OF BODY-->
-    <BODY>
-        <div id="nav_content"> 
-            <ul>
-                <li><a href="#bottom">CONTACT ME</a></li>
-                <li><a href="images/resume.pdf">RESUME</a></li>
-                <li><a href="#top">HOME</a></li>
-            </ul>
-        </div> 
-        <a name="top"></a>
-        <div id="top_content"> 
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Waterloo Computer Engineering (ECE) Student Personal Website">
+    <meta name="author" content="Jay Vyas">
 
-            <h1>JAY VYAS</h1>
-            <h3>Computer Engineer</h3>
-        </div> 
+    <link rel="icon" href="img/favicon.ico">
 
-        <div id="header_intro">
-            <div id="setup">
-                <div id="self_pic">
-                    <img src="images/JayV.png" height=225px/>
+    <title> Jay Vyas</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body id="page-top" class="index">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">Jay Vyas</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">About Me</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#project">Projects</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#experience">Experiences</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="intro-text">
+                <div class="intro-heading">Jay Vyas</div>
+                <div class="intro-lead-in">3B Computer Engineering · University of Waterloo</div>
+                <hr class="intro-divider">
+
+
+
+                <ul class="list-inline intro-social-buttons">
+                    <li>
+                        <a href="img/Resume_1pg_3A.pdf" class="btn btn-default btn-lg"><i class="fa fa-file fa-fw"></i> <span class="network-name">Resume</span></a>
+                    </li>
+                    <li>
+                        <a href="https://www.github.com/j3vyas" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                    </li>
+                    <li>
+                        <a href="https://ca.linkedin.com/in/j3vyas" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
+                    </li>
+                </ul>
+
+
+
+
+                <a href="#about" class="btn btn-circle page-scroll">
+                    <i class="fa fa-angle-double-down animated"></i>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Services Section -->
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">About Me</h2>
+                    <h3 class="section-subheading text-muted">Hi, I'm Jay! I'm a computer engineer at the University of Waterloo in my 3B term.
+                              I am ranked top 10 in my class and have been awarded the dean's award. In addition to my academics, I am also self-learning web development. Stay tuned for more of my <a class="page-scroll" href="#project">projects</a> as I learn Web-dev!</h3>
                 </div>
-                <div id="intro">
-                    <h4>Hello</h4><br/>
-                    <p>I study Computer Engineering at the University of Waterloo. I'm enthusiastic about hardware and software, which basically means everything! I enjoy learning new concepts and applying them to make a difference.<br/><br/>
-                    My goal for the moment is getting experience in the different fields of engineering such as (but not limited to) networking, embedded devices, back-end development, and game development.<br/><br/>
-                    I am currently in my 3A term.</p>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-graduation-cap fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="about-heading">Education</h4>
+                    <p class="text-muted">Bachelors of Applied Science, Computer Engineering <br> University of Waterloo<br> Ranked top 10 with Dean's Honor List </p>
+                </div>
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="about-heading">Skills</h4>
+                    <p class="text-muted">C#, C++, C, Java, Assembly, VHDL<br>HTML, CSS, JS, MySQL, Python<br> ARM, PIC, PCB, FPGA, Bread-board prototyping</p>
+                </div>
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-code fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="about-heading">Experience</h4>
+                    <p class="text-muted">Genesys - Software Engineer <br> IBM - Compiler Optimization Developer <br> AppZero - Software Developer <br></p>
                 </div>
             </div>
         </div>
+    </section>
 
-        <div id="mbody1">
-            <div id="main_content">
-                <div id="skills"> 
-                    <h5>Skills</h5><br/>
-                    <ul class="info">
-                        <li><strong>Software &amp Hardware Languages</strong></li>
-                            <ul>
-                                <li>C#, C++, C, Python, Java, HTML, CSS</li>
-                                <li>Assembly, VHDL, BASIC Programming, C</li>
-                            </ul>
-                        <li><strong>Hardware Equipment &amp Processes</strong></li>
-                            <ul>
-                                <li>ARM microprocessor, PIC microcontroller, FPGA</li>
-                                <li>PCB design, PCB soldering, Breadboard design and analysis</li>
-                                <li>Oscilloscope, multi-meters, function generator, amplifiers</li>
-                            </ul>   
-                        <li><strong>Development Environments and Platforms</strong></li>
-                            <ul>
-                                <li>Windows, Linux, Android, iOS</li>
-                                <li>Visual Studio, Eclipse, Quartus II, PICAXE, Keil uVision, Multisim</li>
-                            </ul>
-                    </ul>
+    <!-- project Grid Section -->
+    <section id="project" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Projects</h2>
+                    <h3 class="section-subheading text-muted">List of projects that I have completed or currently working on!</h3>
                 </div>
             </div>
-            <div id="main_content">
-                <div id="experience">
-                    <h5>Experience</h5><br/>
-                    <ul class="info">
-                        <li><strong>IBM</strong></li>
-                            <ul>
-                                <li>Implemented 50 new SSE/AVX functions in VECLIB using POWER intrinsics with C/C++</li>
-                                <li>Performed functional and performance testing of VECLIB on BE/LE with AIX/POWER/Intel</li>
-                                <li>Created scripts/tools in python for detecting and translating source programs into VECLIB compitable code</li>
-                                <li>Read ABI files to fix and optimize functions and test harness</li>
-                            </ul>
-                        <li><strong>AppZero</strong></li>
-                            <ul>
-                                <li>Improved AppZero's automated PACE scripts using Python</li>
-                                <li>Located and fixed bugs using C++, C# in MS Visual Studio</li>
-                                <li>Performed functional and regression testing on AppZero using Virtual Machines through Virtual Box</li>
-                            </ul>
-                        <li><strong>Maple Leaf Foods</strong></li>
-                            <ul>
-                                <li>Monitored and provided support to over 400 systems globally</li>
-                                <li>Assisted with management of 250 servers</li>
-                                <li>Helped with setting up swing gear for Data Center relocation</li>
-                            </ul>   
-                    </ul>
+            <div class="row">
+                <div class="col-md-4 col-sm-6 project-item">
+                    <a href="#projectModal1" class="project-link" data-toggle="modal">
+                        <div class="project-hover">
+                            <div class="project-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/project/Page_Under_Construction.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="project-caption">
+                        <h4>Project 1 Name</h4>
+                        <p class="text-muted">description</p>
+                    </div>
                 </div>
-            </div>
-            <div id="main_content">
-                <div id="projects">
-                    <h5>Projects</h5><br/>
-                    <ul class="info">
-                        <li><strong>Audio Processing</strong></li>
-                            <ul>
-                                <li>Read bit stream from WAV file to generate sound on the ARM board using C</li>
-                                <li>Audio playable in normal speed, x2, x0.5, reverse, and delayed speeds</li>
-                            </ul>
-                        <li><strong>Reflex Meter</strong></li>
-                            <ul>
-                                <li>Changes pattern of flashing LEDs to time user's reaction</li>
-                                <li>Programmed in Assembly utilizing the ARM microprocessor </li>
-                            </ul>
-                        <li><strong>Autonomous Line Following Robot</strong></li>
-                            <ul>
-                                <li>Designed robot from scratch using opto sensors and PIC microcontroller</li>
-                                <li>Flawlessly tracked routes and programmed in C and BASIC</li>
-                            </ul>   
-
-                    </ul>
+                <div class="col-md-4 col-sm-6 project-item">
+                    <a href="#projectModal2" class="project-link" data-toggle="modal">
+                        <div class="project-hover">
+                            <div class="project-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/project/Page_Under_Construction.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="project-caption">
+                        <h4>Project 2 Name</h4>
+                        <p class="text-muted">description</p>
+                    </div>
                 </div>
-            </div>
-            <p class="learning"><br/><strong>I am always trying to learn new things, improve, and change.<br/>Currently I am working on multiple independent projects so stay tuned!</strong></p>
-            <div id="footer"> 
-                <a name="bottom"></a>
-                <a href="https://ca.linkedin.com/in/j3vyas" title="Linkedin"><img src="images/linkedin.ico" height=50px/></a>
-                <a href="images/resume.pdf" title="Resume"><img src="images/resume.png" height=50px/></a>
-                <a href="https://github.com/j3vyas" title="github"><img src="images/github.png" height=50px/></a>
-                <a href="mailto:J3vyas@uwaterloo.ca" title="Email: J3vyas@uwaterloo.ca"><img src="images/e_mail.ico" height=60px/></a>
-            </div> 
-            <div id="footer_nav"> 
-                <p>&copy 2014 Created by Jay Vyas.</p>
+                <div class="col-md-4 col-sm-6 project-item">
+                    <a href="#projectModal3" class="project-link" data-toggle="modal">
+                        <div class="project-hover">
+                            <div class="project-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/project/Page_Under_Construction.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="project-caption">
+                        <h4>Project 3 Name</h4>
+                        <p class="text-muted">description</p>
+                    </div>
+                </div>
             </div>
         </div>
+    </section>
 
-    </BODY>
+    <!-- Experience Section -->
+    <section id="experience">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Experiences</h2>
+                    <h3 class="section-subheading text-muted">My adventure into the professional world!</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class="timeline">
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/experience/genesys_logo.png" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>Sept 2015 - Dec 2015</h4>
+                                    <h4 class="subheading">Genesys Lab. Inc<br>Software Developer</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Co-op is currently in progress, stay tuned!</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/experience/ibm_logo.png" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>Jan 2015 - April 2015</h4>
+                                    <h4 class="subheading">IBM<br>Compiler Optimization Developer</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Implemented and shipped SSE/AVX functions in VECLIB using C, C++. Additionally, created scripts in Python to help detect programs containing VECLIB compatible code. Optimized functions and test cases with the help of ABI files.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/experience/appzero_logo.png" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>May 2014 - Sept 2014</h4>
+                                    <h4 class="subheading">AppZero<br>Software Developer</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Implemented bug fixes for front and back end using C# and C++. Used python for rapid prototyping of app discovery tool and automation of PACE migration tool. Performed various types of testing (system, functional, performance). </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <h4>Start of<br>Engineering<br>Journey!
+                                </h4>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Contact Me</h2>
+                    <h3 class="section-subheading text-muted" style="color:#B0B0B0;">Lets stay in touch!<br>Please use any of the following to get in touch with me:<br><br><br><br> </h3>
+                </div>
+            </div>
 
-</HTML>
+
+
+            <div class="row">
+                <div class="footer-col col-md-4">
+                    <h3>Location</h3>
+                    <p>15 Dietz Ave North<br>Waterloo, Ontario, N2L 2J3</p>
+                </div>
+                <div class="footer-col col-md-4">
+                    <h3>Social Media</h3>
+                    <ul class="list-inline">
+                        <li>
+                            <a href="https://www.facebook.com/jay.vyas.7773" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.github.com/j3vyas" class="btn-social btn-outline"><i class="fa fa-fw fa-github"></i></a>
+                        </li>
+                        <li>
+                            <a href="img/Resume_1pg_3A.pdf" class="btn-social btn-outline"><i class="fa fa-fw fa-file-pdf-o"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://ca.linkedin.com/in/j3vyas" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://plus.google.com/113530722626888032560/posts" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-col col-md-4">
+                    <h3>Personal</h3>
+                    <p> Call me at: <a href="tel:+1-226-791-3173">226-791-3173</a></p>
+                    <p> Email me at: <a href="mailto:jayvyas@jay-vyas.com">jayvyas@jay-vyas.com</a></p>
+                </div>
+            </div>
+
+
+
+
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                </div>
+                <div class="col-md-4">
+                    <span class="copyright">Copyright &copy; jay-vyas.com 2015</span>
+                </div>
+                <div class="col-md-4">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- project Modals -->
+    <!-- Use the modals below to showcase details about your project projects! -->
+
+    <!-- project Modal 1 -->
+    <div class="project-modal modal fade" id="projectModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>Project Name</h2>
+                            <p class="item-intro text-muted">Short summary</p>
+                            <img class="img-responsive img-centered" src="img/project/Page_Under_Construction.jpg" alt="">
+                            <p>Description of project placed here</p>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- project Modal 2 -->
+    <div class="project-modal modal fade" id="projectModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Project Name</h2>
+                            <p class="item-intro text-muted">Short summary</p>
+                            <img class="img-responsive img-centered" src="img/project/Page_Under_Construction.jpg" alt="">
+                            <p>Description of project placed here</p>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- project Modal 3 -->
+    <div class="project-modal modal fade" id="projectModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>Project Name</h2>
+                            <p class="item-intro text-muted">Short summary</p>
+                            <img class="img-responsive img-centered" src="img/project/Page_Under_Construction.jpg" alt="">
+                            <p>Description of project placed here</p>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/cbpAnimatedHeader.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/basic.js"></script>
+
+</body>
+
+</html>
