@@ -61,7 +61,7 @@ h6 {
 }
 
 .bg-light-gray {
-    background-color: #f7f7f7;
+    background-color: #dedede;
 }
 
 .bg-darkest-gray {
@@ -460,7 +460,6 @@ section h3.section-subheading {
     padding: 25px;
     max-width: 400px;
     text-align: center;
-    background-color: #fff;
 }
 
 #project .project-item .project-caption h4 {
